@@ -8,6 +8,7 @@ mkdir -p /usr/local/bin/
 install -m 644 log2ram.service /etc/systemd/system/log2ram.service
 install -m 644 log2ram-daily.service /etc/systemd/system/log2ram-daily.service
 install -m 644 log2ram-daily.timer /etc/systemd/system/log2ram-daily.timer
+install -m 644 log2ram-hourly.timer /etc/systemd/system/log2ram-hourly.timer
 install -m 755 log2ram /usr/local/bin/log2ram
 install -m 644 log2ram.conf /etc/log2ram.conf
 install -m 644 uninstall.sh /usr/local/bin/uninstall-log2ram.sh
